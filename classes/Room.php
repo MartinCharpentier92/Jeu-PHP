@@ -43,17 +43,17 @@ class Room {
 
         switch ($this->type) {
             case 'vide':
-                $html .= "<p class='mt-4'><a href='donjon_play.php?id=". $this->donjon_id ."' class='btn btn-green'>Continuer l'exploration</a></p>";
+                $html .= "<p><a href='donjon_play.php?id=". $this->donjon_id .">Continuer l'exploration</a></p>";
                 break;
 
             case 'treasure':
-                $html .= "<p class='mt-4'>Vous avez gagné " . $this->or . " pièce d'or</p>";
-                $html .= "<p class='mt-4'><a href='donjon_play.php?id=". $this->donjon_id ."' class='btn btn-green'>Continuer l'exploration</a></p>";
+                $html .= "<p>Vous avez gagné " . $this->or . " pièce d'or</p>";
+                $html .= "<p><a href='donjon_play.php?id=". $this->donjon_id .">Continuer l'exploration</a></p>";
                 break;
 
             case 'combat':
-                $html .= "<p class='mt-4'><a href='donjon_fight.php?id=". $this->donjon_id ."' class='me-2 btn btn-green'>Combattre</a>";
-                $html .= "<a href='donjon_play.php?id=". $this->donjon_id ."' class='btn btn-blue'>Fuir et continuer l'exploration</a></p>";
+                $html .= "<p><a href='donjon_fight.php?id=". $this->donjon_id ."' >Combattre</a>";
+                $html .= "<a href='donjon_play.php?id=". $this->donjon_id ."' >Fuir et continuer l'exploration</a></p>";
                 break;
             
             default:

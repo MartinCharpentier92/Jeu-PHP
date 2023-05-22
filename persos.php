@@ -66,7 +66,7 @@
                     <td>
                         <div>
                             <?php if ($perso['pdv'] > 0 ){ ?>
-                                <a href="perso_choice.php?id=<?php echo $perso['id']; ?>">Choisir</a>
+                                <a href="persos_choice.php?id=<?php echo $perso['id']; ?>">Choisir</a>
                             <?php } else { ?>
                                 <a href="persos_respawn.php?id=<?php echo $perso['id']?>">Résussité</a>
                             <?php } ?>
