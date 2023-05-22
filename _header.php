@@ -9,3 +9,13 @@
 <body>
     
 <?php require_once('_nav.php'); ?>
+
+ <!-- <style>
+        body{
+            background-image: url('img/background.png');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        
+    </style>
+    -->

@@ -33,6 +33,7 @@
     <div>
         <h1>Créer un personnage</h1>
         <form action="" method="post">
+
             <div>
                 <label for="name">Nom :</label>
                 <input 
@@ -43,10 +44,15 @@
                     required
                 />
             </div>
+
             <div>
-                <input type="submit" class="btn btn-green" name="send" value="Créer" />
-                <a class="btn btn-grey" href="persos.php">Retour</a>
+                <input type="submit" name="send" value="Créer" />
             </div>
+
+            <div> 
+                <a href="persos.php">Retour</a>
+            </div>
+            
         </form>
     </div>
 </body>

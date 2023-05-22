@@ -33,6 +33,9 @@
     <h1>Vos personnages</h1>
     <a href="persos_add.php">Créer un personnage</a>
 
+
+    <?php if (isset($_SESSION['user'])) { ?>
+
     <table>
         <thead>
             <tr>
@@ -81,6 +84,7 @@
             <?php } ?>
         </tbody>
     </table>
+    <?php } ?>
 </div>
 
 </body>
