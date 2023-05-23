@@ -9,10 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
-    
+<style>
+    body{
+        background-image: url(img/background.png);
+        background-size: cover;
+        background-position: center;
+        width:100vw;
+        height:100vh;
+    }
+</style>
 <?php require_once('_nav.php'); ?>
+
 
 

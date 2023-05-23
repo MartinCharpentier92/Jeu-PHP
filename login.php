@@ -27,13 +27,14 @@
 <?php require_once('_header.php'); ?>
 
     <form class="login-form" action="" method="post">
-        <h1>Connexion</h1>
+        <h1 class="login-form-h1">Connexion</h1>
 
         <?php if (isset($msg)) { echo "<div>" . $msg . "</div>"; } ?>
 
         <div class="login-form-element1">
             <label for="nickname">Pseudo :</label>
             <input 
+                class="login-form-champ"
                 type="text" 
                 name="nickname" 
                 id="nickname" 
@@ -43,6 +44,7 @@
         <div class="login-form-element2">
             <label for="password">Mot de passe :</label>
             <input 
+                class="login-form-champ"
                 type="password"
                 name="password"
                 id="password"
@@ -50,7 +52,8 @@
         </div>
 
         <div class="login-form-element3">
-            <input type="submit" name="send" value="Connexion">
+            <input class="login-form-input"
+                type="submit" name="send" value="Connexion">
         </div>
     </form>
 

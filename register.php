@@ -26,22 +26,22 @@
 
         <div class="register-form-element1">
             <label for="email">Email :</label>
-            <input type="email" name="email" id="email" placeholder="Entrez votre mail">
+            <input  class="register-form-champ" type="email" name="email" id="email" placeholder="Entrez votre mail">
         </div>
 
         <div class="register-form-element2">
             <label for="password">Mot de passe :</label>
-            <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
+            <input class="register-form-champ" type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
         </div>
 
         <div class="register-form-element3">
             <label for="nickname">Pseudo :</label>
-            <input type="text" name="nickname" id="nickname" placeholder="Entrez votre pseudo">
+            <input class="register-form-champ" type="text" name="nickname" id="nickname" placeholder="Entrez votre pseudo">
         </div>
 
 
         <div class="register-form-element4">
-            <input type="submit" name="send" value="Créer">
+            <input class="register-form-input" type="submit" name="send" value="Créer">
         </div>
 
     </form>
