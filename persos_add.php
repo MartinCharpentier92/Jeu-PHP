@@ -27,6 +27,25 @@
             header('Location: persos.php');
         }
     }
+
+    /*if(isset($_POST['send'])){
+        
+        $personnage = $_POST['send'];
+
+        $bdd = connect();
+
+        $sql = "SELECT COUNT(*) FROM persos WHERE personnage=? ";
+
+        $sth = $bdd->prepare($sql);
+        $sth->execute([$personnage]);
+        $persoExist = $sth->fetch();
+
+    }
+    */
+    
+    //J'ai voulu afficher les caractéristiques du personnages
+    //uniquement s'il existe
+
 ?>
 
 <?php require_once('_header.php'); ?>

@@ -40,7 +40,7 @@
 
         <div>
             <?php foreach ($donjons as $donjon) {?>
-                <a href="donjons_play.php?id=<?php echo $donjon['id']?>">
+                <a href="donjons_front.php?id=<?php echo $donjon['id']?>">
                     <div>
                         <?php echo $donjon['name'];?>
                     </div>

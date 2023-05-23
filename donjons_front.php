@@ -30,24 +30,20 @@
     require_once('./classes/Room.php');
     $roomObject = new Room($room);
     $roomObject->makeAction();
-
+    
 ?>
 
 <?php require_once('_header.php'); ?>
+
     <div>
         <div>
-            <div>
-                <?php require_once('_perso.php'); ?>
-            </div>
-            <div>
-                <h1><?php echo $roomObject->getName(); ?></h1>
-                <p><?php echo $roomObject->getDescription(); ?></p>
-                <?php echo $roomObject->getHTML(); ?>
-            </div>
-            <img src="img/<?php echo $roomObject->picture; ?>" alt="">
-        </div>
+            <h1>Devanture du temple</h1>
+            <p>
+                Voici le temple de plus près. Sa taille me saisit, 
+                comment un tel temple peut-il être encore en si parfait état après tout ce temps, 
+                ces guerres, ces cataclysmes.
+            </p>
+            <img src="img/temple-zeus-front">
+        </div>     
         
     </div>
-    
-    
-</html>

@@ -42,18 +42,22 @@ class Room {
         $html = "";
 
         switch ($this->type) {
+            case 'devanture':
+                $html .= "<p><a href='donjons_play.php?id=". $this->donjon_id ."'>Continuer l'exploration</a></p>";
+                break;
+            
             case 'vide':
-                $html .= "<p><a href='donjon_play.php?id=". $this->donjon_id .">Continuer l'exploration</a></p>";
+                $html .= "<p><a href='donjons_play.php?id=". $this->donjon_id ."'>Continuer l'exploration</a></p>";
                 break;
 
             case 'treasure':
                 $html .= "<p>Vous avez gagné " . $this->or . " pièce d'or</p>";
-                $html .= "<p><a href='donjon_play.php?id=". $this->donjon_id .">Continuer l'exploration</a></p>";
+                $html .= "<p><a href='donjons_play.php?id=". $this->donjon_id ."'>Continuer l'exploration</a></p>";
                 break;
 
             case 'combat':
-                $html .= "<p><a href='donjon_fight.php?id=". $this->donjon_id ."' >Combattre</a>";
-                $html .= "<a href='donjon_play.php?id=". $this->donjon_id ."' >Fuir et continuer l'exploration</a></p>";
+                $html .= "<p><a href='donjons_fight.php?id=". $this->donjon_id ."'>Combattre</a>";
+                $html .= "<a href='donjons_play.php?id=". $this->donjon_id ."'>Fuir et continuer l'exploration</a></p>";
                 break;
             
             default:

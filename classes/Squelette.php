@@ -2,7 +2,7 @@
 
 require_once('./classes/Ennemi.php');
 
-class Gobelin extends Ennemi
+class Squelette extends Ennemi
 {
     public function __construct()
     {

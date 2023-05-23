@@ -1,10 +1,6 @@
 <?php require_once ('_header.php'); ?>
 
-
-
-    <div class="background">
-        <h1>Bienvenue aventurier !</h1>
-    </div>
+    <img class="background-img" src="img/background.png" alt="">
         
         
 
