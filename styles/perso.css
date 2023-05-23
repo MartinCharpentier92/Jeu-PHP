@@ -1,0 +1,308 @@
+/*
+Style sheet for persos.php
+                perso_add.php
+                persos_show.php
+                persos_edit.php
+
+*/
+
+/*  persos.php    */
+
+.persos{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 60%;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.persos-h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.persos-link-perso-add,
+.persos-link-perso-choose,
+.persos-link-perso-resu,
+.persos-link-perso-details,
+.persos-link-perso-modif,
+.persos-link-perso-del{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    border-radius: 7px;
+    background-color:grey ;
+    color: white;
+    padding: 8px;
+    margin: 10px;
+}
+
+
+.persos-table{
+    border-collapse: collapse;
+    color: WHITE;
+    margin: 8px;
+}
+
+.persos-table td,
+.persos-table th{
+    border: 2px solid rgb(102, 102, 102);
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.persos-table-td-choice{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+}
+
+.persos-link-perso-add{
+    width: 8%;
+    transition: all .2s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.persos-link-perso-add:hover{
+    width: 8%;
+    background: rgb(62, 62, 62);
+}
+
+.persos-link-perso-choose{
+    width: 70%;
+    transition: all .2s ease-in-out;
+    background: rgb(54, 134, 255);
+}
+
+.persos-link-perso-choose:hover{
+    width: 70%;
+    background: rgb(31, 76, 145);
+    
+}
+
+.persos-link-perso-resu{
+    width: 70%;
+    transition: all .2s ease-in-out;
+    background-color: green;
+}
+
+.persos-link-perso-resu:hover{
+    width: 70%;
+    background: rgb(0, 90, 0);
+}
+
+.persos-link-perso-details{
+    width: 70%;
+    transition: all .2s ease-in-out;
+}
+
+.persos-link-perso-details:hover{
+    width: 70%;
+    background: rgb(62, 62, 62);
+}
+
+
+.persos-link-perso-modif{
+    width: 70%;
+    transition: all .2s ease-in-out;
+}
+
+.persos-link-perso-modif:hover{
+    width: 70%;
+    background: rgb(62, 62, 62);
+}
+
+
+.persos-link-perso-del{
+    color: white;
+    width: 70%;
+    background: rgb(149, 0, 0);
+    transition: all .2s ease-in-out;
+}
+
+.persos-link-perso-del:hover{
+    width: 70%;
+    background: rgb(62, 0, 0);
+}
+
+
+
+
+
+
+/* perso_add.php*/
+
+.persosAdd-form{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 30%;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.persosAdd-form-h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.persosAdd-form-element1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 10px;
+}
+
+.persosAdd-form-element2{
+    display: flex;
+    justify-content: center;
+}
+
+.persosAdd-form-retour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    border-radius: 7px;
+    background-color:grey ;
+    color: white;
+    padding: 8px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 10%;
+}
+
+.persosAdd-form-retour:hover{
+    transition: all .2s ease-in-out;
+    background: rgb(62, 62, 62);
+}
+
+
+
+/* persos_edit.php */
+
+.persosEdit-form{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 30%;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+.persosEdit-form-h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.persosEdit-form-element1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 10px;
+}
+
+.persosEdit-form-element2{
+    display: flex;
+    justify-content: center;
+}
+
+.persosEdit-form-retour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    border-radius: 7px;
+    background-color:grey ;
+    color: white;
+    padding: 8px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 10%;
+}
+
+.persosEdit-form-retour:hover{
+    transition: all .2s ease-in-out;
+    background: rgb(62, 62, 62);
+}
+
+
+
+
+/* persos_show.php */
+
+.persosShow{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 30%;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.persosShow-h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.persosShow-details{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.persosShow-d{
+    margin: 20px;
+}
+
+.persosShow-form-retour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    border-radius: 7px;
+    background-color:grey ;
+    color: white;
+    padding: 8px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 10%;
+}
+
+.persosShow-form-retour:hover{
+    transition: all .2s ease-in-out;
+    background: rgb(62, 62, 62);
+}

@@ -49,13 +49,14 @@
 ?>
 
 <?php require_once('_header.php'); ?>
-    <div>
-        <h1>Créer un personnage</h1>
+    <div class="persosAdd-form">
+        <h1 class="persosAdd-form-h1">Créer un personnage</h1>
         <form action="" method="post">
 
-            <div>
+            <div class="persosAdd-form-element1">
                 <label for="name">Nom :</label>
                 <input 
+                    class="persosAdd-form-champ"
                     type="text"
                     id="name"
                     name="name"
@@ -64,12 +65,12 @@
                 />
             </div>
 
-            <div>
+            <div class="persosAdd-form-element2">
                 <input type="submit" name="send" value="Créer" />
             </div>
 
             <div> 
-                <a href="persos.php">Retour</a>
+                <a class="persosAdd-form-retour" href="persos.php">Retour</a>
             </div>
             
         </form>

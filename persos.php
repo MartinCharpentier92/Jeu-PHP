@@ -23,18 +23,19 @@
 
 <?php require_once('_header.php'); ?>
 
-<div>
+<div class="persos">
 
     <?php if (isset($_GET['msg'])){
         echo "<div>" . $_GET['msg'] . "</div>";
     }
     ?>
 
-    <h1>Vos personnages</h1>
-    <a href="persos_add.php">Créer un personnage</a>
+    <h1 class="persos-h1">Vos personnages</h1>
+    <a class="btn persos-link-perso-add" href="persos_add.php">
+        Créer un personnage</a>
 
 
-    <table>
+    <table class="persos-table">
         <thead>
             <tr>
                 <th>Nom</th>
@@ -62,18 +63,18 @@
                     <td><?php echo $perso['vit']; ?></td>
                     <td><?php echo $perso['gold']; ?></td>
                     <td>
-                        <div>
+                        <div class="persos-table-td-choice">
                             <?php if ($perso['pdv'] > 0 ){ ?>
-                                <a href="persos_choice.php?id=<?php echo $perso['id']; ?>">Choisir</a>
+                                <a class="persos-link-perso-choose" href="persos_choice.php?id=<?php echo $perso['id']; ?>">Choisir</a>
                             <?php } else { ?>
-                                <a href="persos_respawn.php?id=<?php echo $perso['id']?>">Résussité</a>
+                                <a class="persos-link-perso-resu" href="persos_respawn.php?id=<?php echo $perso['id']?>">Résussité</a>
                             <?php } ?>
 
-                            <a href="persos_show.php?id=<?php echo $perso['id'];?>">Détails</a>
+                            <a class="persos-link-perso-details" href="persos_show.php?id=<?php echo $perso['id'];?>">Détails</a>
                             
-                            <a href="persos_edit.php?id=<?php echo $perso['id'];?>">Modifier</a>
+                            <a class="persos-link-perso-modif" href="persos_edit.php?id=<?php echo $perso['id'];?>">Modifier</a>
                             
-                            <a href="persos_del.php?id=<?php echo $perso['id'];?>"
+                            <a class="persos-link-perso-del"href="persos_del.php?id=<?php echo $perso['id'];?>"
                             onClick="return confirm('Etes-vous sûr ?')";>Supprimer</a>
                         </div>
 

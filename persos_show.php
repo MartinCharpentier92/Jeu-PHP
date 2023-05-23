@@ -29,50 +29,53 @@
 
 <?php require_once('_header.php'); ?>
 
-    <div>
-        <h1>Détails du personnage</h1>
+    <div class="persosShow">
+        <h1 class="persosShow-h1">Détails du personnage</h1>
+
+        <div class="persosShow-details">
+            <div class="persosShow-d">
+                <b>Nom :</b> <?php echo $perso['name']; ?>
+            </div>
+
+            <div class="persosShow-d">
+                <b>Point de vie :</b> <?php echo $perso['pdv']; ?>
+            </div>
+
+            <div class="persosShow-d">
+                <b>Expérience:</b> <?php echo $perso['xp']; ?>
+            </div>
+
+            <div class="persosShow-d">
+                <b>Force :</b> <?php echo $perso['for']; ?>
+            </div>
+
+            <div class="persosShow-d">
+                <b>Dextérité :</b> <?php echo $perso['dex']; ?>
+            </div>
+
+            <div class="persosShow-d">
+                <b>Charisme :</b> <?php echo $perso['char']; ?>
+            </div>
+
+            <div class="persosShow-d">
+                <b>Intelligence :</b> <?php echo $perso['int']; ?>
+            </div>
+
+            <div class="persosShow-d">
+                <b>Vitesse :</b> <?php echo $perso['vit']; ?>
+            </div>
+
+            <div class="persosShow-d">
+                <b>Or :</b> <?php echo $perso['gold']; ?>
+            </div>
 
         <div>
-            <b>Nom :</b> <?php echo $perso['name']; ?>
-        </div>
-
-        <div>
-            <b>Point de vie :</b> <?php echo $perso['pdv']; ?>
-        </div>
-
-        <div>
-            <b>Expérience:</b> <?php echo $perso['xp']; ?>
-        </div>
-
-        <div>
-            <b>Force :</b> <?php echo $perso['for']; ?>
-        </div>
-
-        <div>
-            <b>Dextérité :</b> <?php echo $perso['dex']; ?>
-        </div>
-
-        <div>
-            <b>Charisme :</b> <?php echo $perso['char']; ?>
-        </div>
-
-        <div>
-            <b>Intelligence :</b> <?php echo $perso['int']; ?>
-        </div>
-
-        <div>
-            <b>Vitesse :</b> <?php echo $perso['vit']; ?>
-        </div>
-
-        <div>
-            <b>Or :</b> <?php echo $perso['gold']; ?>
-        </div>
-
-        <div>
-            <a href="persos.php">Retour</a>
+            <a class="persosShow-form-retour" href="persos.php">Retour</a>
         </div>
 
     </div>
 
+        </div>
+        
 </body>
 </html>

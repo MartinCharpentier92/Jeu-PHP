@@ -44,9 +44,9 @@
 
 <?php require_once('_header.php'); ?>
 
-    <form action="" method="post" class="persos-edit-form">
-    <h1>Modifier un personnage</h1>
-        <div class="persos-edit-form-element1">
+    <form action="" method="post" class="persosEdit-form">
+    <h1 class="persosEdit-form-h1">Modifier un personnage</h1>
+        <div class="persosEdit-form-element1">
             <label for="name">Nom :</label>
             <input 
                 class="name-change"
@@ -58,15 +58,15 @@
             />
         </div>
 
-        <div class="persos-edit-form-element2">
+        <div class="persosEdit-form-element2">
             <input 
                 type="submit"
                 name="send"
-                value="modifier">
+                value="Modifier">
         </div>
         
-        <div class="persos-edit-form-element3">
-            <a href="persos.php">Retour</a>
+        <div class="persosEdit-form-element3">
+            <a class="persosEdit-form-retour" href="persos.php">Retour</a>
         </div>
     </form>
 </body>

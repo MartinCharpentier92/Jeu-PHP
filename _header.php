@@ -11,14 +11,15 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/perso.css">
 </head>
 <body>
 <style>
     body{
-        background-image: url(img/background.png);
+        background-image: url(img/background.jpg);
         background-size: cover;
         background-position: center;
-        width:100vw;
+        width: 100vw;
         height:100vh;
     }
 </style>
