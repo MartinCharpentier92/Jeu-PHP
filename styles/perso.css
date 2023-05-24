@@ -3,6 +3,7 @@ Style sheet for persos.php
                 perso_add.php
                 persos_show.php
                 persos_edit.php
+                _perso.php
 
 */
 
@@ -15,7 +16,7 @@ Style sheet for persos.php
     flex-direction: column;
     background-color: rgba(96, 96, 96, 0.5);
     backdrop-filter: blur(4px);
-    width: 60%;
+    width: 80%;
     margin-top: 100px;
     border-radius: 15px;
     padding: 15px;
@@ -67,13 +68,13 @@ Style sheet for persos.php
 }
 
 .persos-link-perso-add{
-    width: 8%;
+    width: 10%;
     transition: all .2s ease-in-out;
     margin-bottom: 30px;
 }
 
 .persos-link-perso-add:hover{
-    width: 8%;
+    width: 12%;
     background: rgb(62, 62, 62);
 }
 
@@ -186,7 +187,7 @@ Style sheet for persos.php
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 10%;
+    width: 12%;
 }
 
 .persosAdd-form-retour:hover{
@@ -205,7 +206,7 @@ Style sheet for persos.php
     flex-direction: column;
     background-color: rgba(96, 96, 96, 0.5);
     backdrop-filter: blur(4px);
-    width: 30%;
+    width: 35%;
     margin-top: 100px;
     border-radius: 15px;
     padding: 15px;
@@ -244,7 +245,7 @@ Style sheet for persos.php
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 10%;
+    width: 12%;
 }
 
 .persosEdit-form-retour:hover{
@@ -265,6 +266,7 @@ Style sheet for persos.php
     background-color: rgba(96, 96, 96, 0.5);
     backdrop-filter: blur(4px);
     width: 30%;
+    height: 60%;
     margin-top: 100px;
     border-radius: 15px;
     padding: 15px;
@@ -284,7 +286,7 @@ Style sheet for persos.php
 }
 
 .persosShow-d{
-    margin: 20px;
+    margin: 10px;
 }
 
 .persosShow-form-retour{
@@ -297,12 +299,60 @@ Style sheet for persos.php
     color: white;
     padding: 8px;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 10%;
+    
+    width: 12%;
 }
 
 .persosShow-form-retour:hover{
     transition: all .2s ease-in-out;
     background: rgb(62, 62, 62);
+}
+
+
+
+
+
+/* _perso.php */
+
+.perso-donjons-play{
+    margin: 50px 0px 0px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 8%;
+    height: 20%;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.perso-donjons-play-h2{
+    color: white;
+}
+
+.perso-donjons-play-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start ;
+    border-radius: 7px;
+    background-color:grey ;
+    color: white;
+    padding: 8px;
+    width: 55%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.perso-donjons-play-button:hover{
+    background: rgb(62, 62, 62);
+}
+
+.perso-donjons-play-details{
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }

@@ -38,19 +38,14 @@
 <div>
     <?php require_once('_perso.php'); ?>
 </div>
-       
 
-
-        <div class="donjons-front-details">
-            <h1>Devanture du temple</h1>
+        <div class="donjons-main-corridor-details">
+            <h1>Allée principale du temple</h1>
             <p>
-                Voici le temple de plus près. Sa taille me saisit, 
-                comment un tel temple peut-il être encore en si parfait état après tout ce temps, 
-                ces guerres, ces cataclysmes.
+                Vous entrez dans un immense couloir sombre.
             </p>
-            <img src="img/temple-zeus-front">
+            <img src="img/temple-zeus-main-corridor">
             
-            <p><a class="donjons-front-details-button"
-            href='donjon_main_corridor.php?id=1'>Continuez l'exploration</a></p>
-        </div>     
-        
+            <p><a class="donjons-main-corridor-details-button"
+            href='donjon_play.php?id=1'>Continuez l'exploration</a></p>
+        </div>

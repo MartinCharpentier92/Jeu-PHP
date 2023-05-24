@@ -29,7 +29,10 @@
     <form class="login-form" action="" method="post">
         <h1 class="login-form-h1">Connexion</h1>
 
-        <?php if (isset($msg)) { echo "<div>" . $msg . "</div>"; } ?>
+        <div class="msg-erreur">
+            <?php if (isset($msg)) { echo "<div>" . $msg . "</div>"; } ?>
+        </div>
+        
 
         <div class="login-form-element1">
             <label for="nickname">Pseudo :</label>

@@ -1,0 +1,211 @@
+/*
+Style sheet for donjons.php
+*/
+
+/* donjons.php*/
+
+
+.donjons{
+    display: flex;
+    flex-direction: row;
+}
+
+.donjons-perso{
+    margin: 50px 0px 0px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 8%;
+    height: 10%;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.donjons-perso-name{
+    color: white;
+}
+
+.donjons-perso-name-button{
+    display: flex;
+    justify-content: start;
+}
+
+.donjons-perso-link-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start ;
+    border-radius: 7px;
+    background-color:grey ;
+    color: white;
+    padding: 8px;
+    width: 55%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.donjons-perso-link-change:hover{
+    transition: all .2s ease-in-out;
+    background: rgb(62, 62, 62);
+}
+
+.donjons-choix{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 50%;
+    height: 74%;
+    margin-top: -130px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.donjons-choix-h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.donjons-choix-nom{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.1em;
+}
+.donjons-choix-img{
+    display: flex;
+    justify-content: center;
+}
+
+.donjons-choix img{
+    width: 300px;
+}
+
+.donjons-choix-desc{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.donjons-choix-desc p{
+    color: white;
+    text-align: justify;
+}
+
+
+/* donjons_front.php */
+
+.donjons-front-details{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 50%;
+    height: 74%;
+    margin: auto;
+    margin-top: -315px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.donjons-front-details h1{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.donjons-front-details p{
+    width: 70%;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.donjons-front-details img{
+    width: 300px;
+}
+
+.donjons-front-details-button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start ;
+    border-radius: 7px;
+    background-color:grey ;
+    color: white;
+    padding: 8px;
+    width: 55%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.donjons-front-details-button:hover{
+    transition: all .2s ease-in-out;
+    background: rgb(62, 62, 62);
+}
+
+
+
+
+
+/* donjons_main_corridor.php */
+
+.donjons-main-corridor-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(96, 96, 96, 0.5);
+    backdrop-filter: blur(4px);
+    width: 50%;
+    height: 74%;
+    margin: auto;
+    margin-top: -315px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.donjons-main-corridor-details h1{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.donjons-main-corridor-details p{
+    width: 70%;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.donjons-main-corridor-details img{
+    width: 300px;
+}
+
+.donjons-main-corridor-details-button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start ;
+    border-radius: 7px;
+    background-color:grey ;
+    color: white;
+    padding: 8px;
+    width: 55%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.donjons-main-corridor-details-button:hover{
+    transition: all .2s ease-in-out;
+    background: rgb(62, 62, 62);
+}

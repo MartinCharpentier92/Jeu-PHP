@@ -23,37 +23,39 @@
 
 <?php require_once('_header.php'); ?>
 
-    <div class="donjons-perso">
-        
-        <div>
-            <?php echo $_SESSION['perso']['name']; ?>
+        <div class="donjons-perso">
+            
+            <div class="donjons-perso-name">
+                <b><?php echo $_SESSION['perso']['name']; ?></b>
+            </div>
+
+            <div class="donjons-perso-name-button">
+                <a class="donjons-perso-link-change"
+                href="persos.php">Changer</a>
+            </div>
+
         </div>
 
-        <div>
-            <a href="persos.php">Changer</a>
+        <div class="donjons-choix">
+            <h1 class="donjons-choix-h1">Choississez une aventure</h1>
+
+            <div>
+                <?php foreach ($donjons as $donjon) {?>
+                    <a href="donjons_front.php?id=<?php echo $donjon['id']?>">
+                        <div class="donjons-choix-nom">
+                            <h2><?php echo $donjon['name'];?></h2>
+                        </div>
+                        <div class="donjons-choix-img">
+                            <img src="img/<?php echo $donjon['picture'] ? $donjon['picture']:""?>" alt="">
+                        </div>
+                        <div class="donjons-choix-desc">
+                            <p><?php echo $donjon['description'];?></p>
+                        </div>
+                    </a>
+                    
+
+                <?php } ?>
+            </div>
+            
         </div>
-
-    </div>
-
-    <div>
-        <h1>Choississez une aventure</h1>
-
-        <div>
-            <?php foreach ($donjons as $donjon) {?>
-                <a href="donjons_front.php?id=<?php echo $donjon['id']?>">
-                    <div>
-                        <?php echo $donjon['name'];?>
-                    </div>
-                    <div>
-                        <img src="img/<?php echo $donjon['picture'] ? $donjon['picture']:""?>" alt="">
-                    </div>
-                    <div>
-                        <?php echo $donjon['description'];?>
-                    </div>
-                </a>
-                
-
-            <?php } ?>
-        </div>
-        
-    </div>
+    
